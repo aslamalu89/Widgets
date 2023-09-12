@@ -5,6 +5,8 @@ import 'package:untitled1/widgets/hero.dart';
 import 'package:untitled1/widgets/intrinsic.dart';
 import 'package:untitled1/widgets/sliver.dart';
 
+import 'loginpg/bottom bars.dart';
+import 'loginpg/curved  button.dart';
 import 'loginpg/lgpg.dart';
 
 void main() {
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Signuppg(),
+      home:  Curved(),
     );
   }
 }
